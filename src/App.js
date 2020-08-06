@@ -3,7 +3,11 @@ import Counter from "./Counter";
 
 class App extends React.Component {
   render() {
-    return <Counter />;
+    return (
+      <div>
+        <Counter />
+      </div>
+    );
   }
 }
 export default App;
